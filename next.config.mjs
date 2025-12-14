@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
     output: 'export',
     images: {
         unoptimized: true,
     },
-    basePath: '/Apex-Protocol',
+    basePath: isProd ? '/Apex-Protocol' : undefined,
     typescript: {
         // !! WARN !!
         // Dangerously allow production builds to successfully complete even if
