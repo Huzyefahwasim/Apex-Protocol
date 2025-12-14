@@ -1,6 +1,8 @@
 {
   "name": "apex-protocol",
   "version": "0.1.0",
+  "description": "A high-performance fitness application landing page merging bio-hacking aesthetics with modern web technologies.",
+  "author": "Huzyefahwasim",
   "private": true,
   "scripts": {
     "dev": "next dev",
